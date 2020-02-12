@@ -9,8 +9,11 @@
 </head>
 
 <body>
-  <h1 class="wuzzapp">::WuzzApp</h1>
-  <h3>Keep track of your awesome app ideas in four easy steps!</h3>
+  <header>
+    <h1>::WuzzApp</h1>
+    <h3>Track your awesome app ideas in four easy steps</h3>
+  </header>
+
 
   <!-- begin form components-->
   <div class="form_container">
@@ -43,14 +46,13 @@
       <button id="save_button" class="save_btn">Save</button>
     </fieldset>
   </div>
-  <hr />
   <!-- end form components -->
-
-  <h2>App Ideas:</h2>
-  <!-- begin results -->
-  <section id="ideas_container"></section>
-  <!-- end results -->
-
+  <div class="content">
+    <h2>App Ideas:</h2>
+    <!-- begin results -->
+    <section id="ideas_container"></section>
+    <!-- end results -->
+  </div>
   <script type="module" src="./scripts/main.js"></script>
 </body>
 
