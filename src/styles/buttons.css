@@ -1,0 +1,23 @@
+button {
+  margin: .5em 0em;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: .5em;
+  color: white;
+  padding: .5em;
+}
+
+.save_btn {
+  background-color: var(--primary-color);
+}
+
+.save_btn:hover {
+  background-color: green;
+}
+
+.delete_btn {
+  background-color: rgb(110, 110, 110);
+}
+
+.delete_btn:hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,50 @@
+@import './buttons.css';
+
+:root {
+  /* set custom properties */
+  --primary-color: crimson;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(226, 226, 226);
+}
+
+/* brand */
+.wuzzapp {
+  color: var(--primary-color);
+}
+
+/* begin form styling */
+
+.form_container {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: .5em 0em;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding: .5em;
+  border-radius: .5em;
+}
+
+/* end form styling */
+
+hr {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.idea_card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: white;
+  border-radius: .5em;
+}

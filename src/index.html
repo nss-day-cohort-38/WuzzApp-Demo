@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WuzzApp!</title>
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+  <h1 class="wuzzapp">::WuzzApp</h1>
+  <h3>Keep track of your awesome app ideas in four easy steps!</h3>
+
+  <!-- begin form components-->
+  <div class="form_container">
+    <fieldset>
+      <label for="name_input">1. Name Your App</label>
+      <input type="text" id="name_input" placeholder="cool app" class="input" />
+    </fieldset>
+    <fieldset>
+      <label for="description_input">2. Describe It</label>
+      <textarea id="description_input" cols="30" rows="3" placeholder="App Description" class="input"></textarea>
+    </fieldset>
+    <fieldset>
+      <label for="rating_input">3. Rate It </label>
+      <select id="rating_input" class="input">
+        <option>Select</option>
+        <option value="1">1 . Terrible Idea</option>
+        <option value="2">2 ..</option>
+        <option value="3">3 ...</option>
+        <option value="4">4 ....</option>
+        <option value="5">5 ..... Average Idea</option>
+        <option value="6">6 ......</option>
+        <option value="7">7 .......</option>
+        <option value="8">8 ........</option>
+        <option value="9">9 .........</option>
+        <option value="10">10 .......... Awesome Idea</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label for="save_button">4. Save It </label>
+      <button id="save_button" class="save_btn">Save</button>
+    </fieldset>
+  </div>
+  <hr />
+  <!-- end form components -->
+
+  <h2>App Ideas:</h2>
+  <!-- begin results -->
+  <section id="ideas_container"></section>
+  <!-- end results -->
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

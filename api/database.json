@@ -1,0 +1,22 @@
+{
+  "ideas": [
+    {
+      "name": "Dream Catcher",
+      "description": "dream journal",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "name": "High-Five Tracker",
+      "description": "keep track of how many sweet high-fives you serve up on a daily basis",
+      "rating": "8",
+      "id": 2
+    },
+    {
+      "name": "ToastIt Notes",
+      "description": "collect photos of toast with burn patterns resembling famous folk",
+      "rating": "10",
+      "id": 3
+    }
+  ]
+}
